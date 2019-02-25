@@ -1,0 +1,8 @@
+h5, .create-btn{font-size: 14px;margin-bottom:0; font-weight: 600;color: #4b4f56;text-transform: capitalize }
+.card-header, .create-btn{padding: 0.6rem .8rem}
+.card-body{padding: .7rem .7rem;}
+.create-btn{padding: 0.2rem .6rem}
+.text-input{border:none;display: inline-block;width: 80%}
+.form-control:focus{box-shadow: none}
+.create-btn {background-color:rgba(0, 0, 0, 0.03);border-radius: 27px }
+hr{margin-bottom: .4rem;margin-top: 1rem}

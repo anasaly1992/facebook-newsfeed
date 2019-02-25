@@ -1,0 +1,14 @@
+h6{margin-bottom: 0}
+h6 a{color:#365899; font-weight: bold; font-size: 15px}
+.float-right i{color: #616770; font-size: 17px}
+.post-par{clear: both;}
+.post-par p{margin-bottom: 0}
+.card-header{background: #fff; border-bottom: 0}
+.card-body{padding: 0.2rem 0}
+.card-body span{color: #212529ad}
+.hr-1{width: 95%;margin-top: 1.5rem;margin-bottom: 0}
+i{color: #212529ad}
+.card .overlay{position: absolute;left: 0; top: 0; width: 100%;height: 100%; background: #00000063}
+.post-img .video-option{position: absolute;left: 42%; top: 42%; width: 100%;height: 100%; }
+.video-option .fa-youtube{color: #fff;font-size: 64px}
+.post-img {position: relative}

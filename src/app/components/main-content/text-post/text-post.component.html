@@ -1,0 +1,40 @@
+<div class="card">
+    <div class="card-header">
+      <div class="post-title">
+        <div class="float-left">
+          <img class="float-left" src="../../../assets/images/{{newsfeed.textpost.profileimg}}" alt="pimg" height="40" width="40" style="border-radius: 50%" />
+          <div class="float-left ml-2">
+            <h6><a href="#">{{newsfeed.textpost.profilename}}</a></h6>
+            <span>{{newsfeed.textpost.duration}}</span>
+            <img src="../../../assets/images/{{newsfeed.textpost.icon}}">
+          </div>
+        </div>
+        <div class="float-right">
+          <a href="#">
+            <i class="fas fa-ellipsis-h "></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-par">
+        <p class="float-right">{{newsfeed.textpost.text}}</p>
+      </div>
+    </div>
+    <div class="card-body">
+
+      <div class="p-2">
+        <div class="float-left">
+            <img src="../../../assets/images/{{newsfeed.textpost.likes}}" alt="pimg">
+        </div>
+        <div class="float-right">
+          <span>{{newsfeed.textpost.comments}}</span>
+        </div>
+      </div>
+      <hr class="hr-1">
+      <div class="row">
+      <button *ngFor = "let button of newsfeed.textpost.sharing" type="button" class="col-md-4 btn create-btn"><i class="fas {{button.img}}"></i> {{button.text}}</button>
+
+    </div>
+
+    </div>
+
+  </div>

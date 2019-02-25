@@ -1,0 +1,138 @@
+{
+  "profileinfo": {
+    "name": "anas ali",
+    "fullname": "anas ali abdel hafeez",
+    "shortname": "anas",
+    "img": "/the-verge.png"
+  },
+
+  "sidebar": [{
+      "text": "news feed",
+      "img": "/newsfeed.png"
+    },
+    {
+      "text": "messenger",
+      "img": "/messenger.png"
+    },
+    {
+      "text": "watch",
+      "img": "/watch.png"
+    },
+    {
+      "text": "marketplace",
+      "img": "/marketplace.png"
+    }
+  ],
+  "sidebar2": [{
+      "text": "it-jobs egypt",
+      "img": "/group.png"
+    },
+    {
+      "text": "it jobs in egypt",
+      "img": "/earth.png"
+    },
+    {
+      "text": "social media egypt",
+      "img": "/group.png"
+    },
+    {
+      "text": "SEO socitey",
+      "img": "/group.png"
+    }
+  ],
+  "creatpost": {
+    "header": "create post",
+    "placeholder": "what's in your mind,",
+    "footer": [{
+        "text": "photo/video",
+        "img": "/photo-gallery.png"
+      },
+      {
+        "text": "tag friends",
+        "img": "/tag-friends.png"
+      },
+      {
+        "text": "Feeling/Active",
+        "img": "/feeling-active.png"
+      },
+      {
+        "text": "",
+        "img": "/dot.png"
+      }
+    ]
+  },
+
+  "photopost": {
+    "profilename": "Ahmed Mohamed Mahmoud",
+    "profileimg": "/profile1.jpg",
+    "duration": "2 hrs -",
+    "icon": "/earth2.png",
+    "dotimg": "/dot.png",
+    "text": "تأهل نادي العين الاماراتي لنهائي الكأس",
+    "likes": "/likes.png",
+    "comments": "14 comments",
+    "postimg": "/postimg.jpg",
+    "sharing": [{
+        "text": "like",
+        "img": "fa-thumbs-up"
+      },
+      {
+        "text": "comment",
+        "img": "fa-comment"
+      },
+      {
+        "text": "share",
+        "img": "fa-share"
+      }
+
+    ]
+  },
+  "textpost": {
+    "profilename": "Omar Mahmoud",
+    "profileimg": "/profile2.jpg",
+    "duration": "3 hrs -",
+    "icon": "/earth2.png",
+    "dotimg": "/dot.png",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ",
+    "likes": "/likes.png",
+    "comments": "6 comments",
+    "sharing": [{
+        "text": "like",
+        "img": "fa-thumbs-up"
+      },
+      {
+        "text": "comment",
+        "img": "fa-comment"
+      },
+      {
+        "text": "share",
+        "img": "fa-share"
+      }
+
+    ]
+  },
+  "videopost": {
+    "profilename": "ali ahmed mohammed",
+    "profileimg": "/profile3.jpg",
+    "duration": "30 min -",
+    "icon": "/earth2.png",
+    "dotimg": "/dot.png",
+    "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less norma",
+    "likes": "/likes.png",
+    "comments": "3 comments",
+    "postvid": "/videoimg.jpg",
+    "sharing": [{
+        "text": "like",
+        "img": "fa-thumbs-up"
+      },
+      {
+        "text": "comment",
+        "img": "fa-comment"
+      },
+      {
+        "text": "share",
+        "img": "fa-share"
+      }
+    ]
+  }
+}

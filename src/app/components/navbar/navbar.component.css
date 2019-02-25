@@ -1,0 +1,25 @@
+.fb-nav{background:#4267b2 ;height: 42px !important;
+border-bottom: 1px solid #29487d;
+}
+.fb-nav a{color:#fff}
+.navform input[type="text"]{
+    width:393px;height: 28px;border:none;border-radius: 0;outline:none;
+}
+.navform input[type="text"]:focus{border-color: transparent}
+.navform button{width:46px;height: 28px;border:none;outline: none;background-color:#f5f6f7;padding: 0;border-radius: 0 }
+.navform button i {color:#27282c;}
+.border-right{border-right: 0.5px solid #15233f;margin:12px 0}
+.collapse ul li i{color:#15233f}
+.wrapper{width:1050px;margin: 0 auto}
+@media(max-width:993px){
+    .navform  input[type="text"]{
+        width: auto
+    }
+    .fb-nav, .wrapper{
+        min-width: 993px
+    }
+}
+.fa-1x{font-size: 1.6em; padding-top: 1px}
+ .navbar .border-right{border-right:1px solid #17497b73 !important}
+ /* .dropdown-toggle::after{border-right:#15233f;border-left:#15233f} */
+

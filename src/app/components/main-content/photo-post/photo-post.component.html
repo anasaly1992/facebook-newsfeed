@@ -1,0 +1,41 @@
+<div class="card">
+  <div class="card-header">
+    <div class="post-title">
+      <div class="float-left">
+        <img class="float-left" src="../../../assets/images/{{newsfeed.photopost.profileimg}}" alt="pimg" height="40" width="40" style="border-radius: 50%" />
+        <div class="float-left ml-2">
+          <h6><a href="#">{{newsfeed.photopost.profilename}}</a></h6>
+          <span>{{newsfeed.photopost.duration}}</span>
+          <img src="../../../assets/images/{{newsfeed.photopost.icon}}">
+        </div>
+      </div>
+      <div class="float-right">
+        <a href="#">
+          <i class="fas fa-ellipsis-h "></i>
+        </a>
+      </div>
+    </div>
+    <div class="post-par">
+      <p class="float-right"> {{newsfeed.photopost.text}}</p>
+    </div>
+  </div>
+  <div class="card-body">
+    <div calss="post-img">
+      <img src="../../../assets/images/post-img/{{newsfeed.photopost.postimg}}" alt="pimg" width="100%">
+    </div>
+    <div class="p-2">
+      <div class="float-left">
+          <img src="../../../assets/images/{{newsfeed.photopost.likes}}" alt="pimg">
+      </div>
+      <div class="float-right">
+        <span>{{newsfeed.photopost.comments}}</span>
+      </div>
+    </div>
+    <hr class="hr-1">
+    <div class="row">
+    <button *ngFor ="let button of newsfeed.photopost.sharing" type="button" class="col-md-4 btn create-btn"><i class="fas {{button.img}}"></i> {{button.text}}</button>
+  </div>
+
+  </div>
+
+</div>

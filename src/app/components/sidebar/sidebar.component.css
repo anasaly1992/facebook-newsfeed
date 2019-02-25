@@ -1,0 +1,4 @@
+nav .nav-item .active{background-color: #fff; font-weight: bold }
+.nav-link {padding: 0.2rem .5rem !important; color: #000}
+h6{color:#616770; font-weight: 600}
+nav{position: fixed}
